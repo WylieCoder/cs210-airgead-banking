@@ -1,4 +1,4 @@
-# 🏦 Airgead Banking – CS210 Portfolio Reflection
+# Airgead Banking – CS210 Portfolio Reflection
 
 ## Summary of the Project
 The *Airgead Banking* project is a financial calculator designed to help users visualize how their savings can grow over time. It takes an initial investment, optional monthly deposits, an annual interest rate, and a number of years, then displays a yearly breakdown of account balances. This project demonstrates my ability to use C++ to build interactive, data-driven applications that process user input, perform calculations, and present results in a clear and organized format.
@@ -18,7 +18,7 @@ From this project, I gained strong experience in modular design, object-oriented
 ## Maintainability, Readability, and Adaptability
 I focused heavily on making the program readable by using consistent indentation, clear variable names, and in-line comments to explain key sections of code. The logic is organized into functions and classes that make the program easy to maintain or expand, such as by adding new financial features or switching to another output format like CSV or JSON. This modular design ensures that anyone viewing or using my code can quickly understand and adapt it.
 
-# 🏦 Airgead Banking — CS 210 Portfolio Submission
+# Airgead Banking — CS 210 Portfolio Submission
 
 ## Overview
 Airgead Banking is a C plus plus console program that models investment growth. The user enters an initial deposit, an optional monthly deposit, an annual interest rate, and a number of years, the program then displays yearly balance tables, both without monthly deposits and with monthly deposits. This project demonstrates interactive input handling, correct compound interest calculations, formatted console output, and clean program structure using multiple source files.

@@ -17,3 +17,25 @@ From this project, I gained strong experience in modular design, object-oriented
 
 ## Maintainability, Readability, and Adaptability
 I focused heavily on making the program readable by using consistent indentation, clear variable names, and in-line comments to explain key sections of code. The logic is organized into functions and classes that make the program easy to maintain or expand, such as by adding new financial features or switching to another output format like CSV or JSON. This modular design ensures that anyone viewing or using my code can quickly understand and adapt it.
+
+# 🏦 Airgead Banking — CS 210 Portfolio Submission
+
+## Overview
+Airgead Banking is a C plus plus console program that models investment growth. The user enters an initial deposit, an optional monthly deposit, an annual interest rate, and a number of years, the program then displays yearly balance tables, both without monthly deposits and with monthly deposits. This project demonstrates interactive input handling, correct compound interest calculations, formatted console output, and clean program structure using multiple source files.
+
+## Repository structure
+- `main.cpp` entry point, input, output, orchestration
+- `InvestmentCalculator.h` class interface
+- `InvestmentCalculator.cpp` class implementation
+
+## How to build and run
+
+### Option A, GCC or Clang from a terminal
+Windows with MinGW w64, macOS, or Linux
+
+```bash
+# compile
+g++ -std=c++17 -O2 main.cpp InvestmentCalculator.cpp -o AirgeadBanking
+
+# run
+./AirgeadBanking        # on Windows you can run AirgeadBanking.exe
